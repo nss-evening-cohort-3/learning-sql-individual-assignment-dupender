@@ -1,0 +1,1 @@
+SELECT LastName|| ', '||firstName AS 'CUSTOMER NAME', InvoiceId, InvoiceDate, BillingCountry FROM customer JOIN Invoice ON Customer.CustomerId == Invoice.CustomerId WHERE Country = 'Brazil' ORDER BY lastname
